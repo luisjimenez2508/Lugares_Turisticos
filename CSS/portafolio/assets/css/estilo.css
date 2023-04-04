@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Alkatra', cursive;
+    font-size: 5rem;
+    color: purple;
+    text-shadow: black;
+}
+
+h2{
+    font-family: 'Alkatra', cursive;
+    font-size: 3.5rem;
+    color: purple;
+}
+
+#developer{
+    text-decoration: underline;
+}
+
+header{
+    background-color: #E4F9F5;
+    padding-top: 20px;
+    position: relative;
+}
+
+#cloud-top{
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+
+#cloud-bottom{
+    position: absolute;
+    bottom: 300px;
+    left: 200px;
+}
+
+main{
+    margin: 100px 0;
+}
+
+/** parrafo del contenedor del perfil */
+.paragrahp{
+    width: 30%;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.skills-row{
+    width: 50%;
+    margin: 100px auto;
+}
+
+#developer-img{ 
+    width: 30%;
+    margin-right: 30px;
+    float: left;
+   /* padding-left: 30px;*/
+}
+
+.skills h2{
+   margin-top: 8rem;
+   font-size: 2.5rem;
+}
+/*
+.skills-paragraph{
+    position: absolute;
+    bottom: 10px;
+}*/
+.skills-row h3{
+    text-align: justify;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.skills-paragraph{
+    text-align: justify;
+}
+#chillies{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skills-row-contact h2{
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+}
+.skills-row-contact h3{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.skills-paragraph-contact{
+    text-align: center;
+    padding-top: 1rem;
+}

@@ -1,0 +1,242 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; /** validamos que las cajas hijas esten  solo en el contenedor padre */ 
+
+}
+
+body{
+    font-family:  cursive ;
+}
+
+
+header{
+
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M540 381L539 134' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M282 445L281 653' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M834 29L833 284' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M997 118L996 -287' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M93 177L92 -82' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M999 550L998 847' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M758 510L757 927' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M941 253L940 521' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M169 235L168 57' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1421 5L1420 424' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M684 196L683 -94' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1308 356L1307 682' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M661 235L660 -168' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1249 498L1248 792' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M872 98L871 -213' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M831 316L830 151' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M995 312L994 -6' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M684 268L683 568' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M262 174L261 -1' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M198 512L197 172' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M930 302L929 49' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1412 549L1411 827' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1168 103L1167 -178' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M507 183L506 359' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1107 388L1106 589' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M538 344L537 510' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1228 65L1227 271' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1277 274L1276 -70' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M891 396L890 777' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M969 120L968 -60' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1322 62L1321 -150' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1275 86L1274 437' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M959 544L958 145' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1326 77L1325 472' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M388 68L387 390' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M943 342L942 199' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1001'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1002'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+
+    height: 200px;
+    color: white;
+    text-align: center;
+    line-height:200px;
+
+}
+
+nav{
+
+    background-color: blueviolet;
+    text-align: center;
+    
+}
+
+nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px;
+        color: white;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/**  estilos al contenido principal*/
+
+.box-center{
+
+    width: 80%;
+    margin: auto; 
+    padding: 25px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2rem;
+    /** 1rem = 16px */
+    color: blueviolet;
+}
+
+.box-section{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; /** centrar objetos*/
+}
+
+#image{
+    width: 90%;
+}
+
+footer{
+    background-color: blueviolet;
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    padding: 50px 0;
+    gap: 20px;
+    color: white;
+}
+
+.margen{
+    margin: 30px 0;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 50%;
+    color: violet;
+    margin: 5px;
+
+}
+
+.footer_container .info .icons{
+    width: 60%;
+
+}
+
+.footer_container .info .icons a{
+    width: 50px;
+    height: 50px;
+
+}
+
+.footer_container .info .icons a:hover{
+       background: transparent;
+
+}
+
+/** apartado de viajes*/
+
+.seccion-card{
+    display: flex; 
+    justify-content: space-around;
+    flex-flow: row wrap; /** envuelve los elementos en una fila*/
+}
+
+.card{
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); /** horizonta, vertical, desenfoque,spread radius*/
+    margin-bottom: 30px;
+    background-size: cover;/** la caja se adapta al tamaño de la tarjeta*/
+    background-position: center;/** posicion de objetos dentro de la tarjeta*/
+    transition: all .5s;
+}
+
+.seccion-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    ;
+}
+
+.card:hover{
+    transform: scale(1.1);
+
+
+}
+/** contacto*/
+
+.contact-fondo{
+    background-image: url(../img/viaje4.jpg);
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -100px;
+}
+
+.formulario{
+    background-color: rgba(192, 192, 192, 0.3);
+    margin: -10rem auto 0 auto;
+    width: 95%;
+    padding: 3rem;
+}
+
+form label{
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    height: 30px;
+    padding: 3px 10px; /** top-bottom - right-left */
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    margin: 8px 0;
+    display: block; /** los elementos se aplican uno abajo del otro */
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    margin: 8px 0;
+    display: block; /** los elementos se aplican uno abajo del otro */
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 8px;
+    margin-top: 32px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover{
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+/** aplicado media query*/
+
+@media(max-width: 1100px){
+     .icons{
+        width: 100% !important;
+     }
+}
+
+/**pantallas pequeñas*/
+
+@media (max-width: 550px){
+    .box-section{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .footer_container{
+        grid-template-columns: 1fr;
+    }
+
+    /**apartado de viajes.html*/
+    .card{
+        width: 100%;
+    }
+    
+
+    
+}
+/**apartado de contacto*/
+
+@media (max-width: 350px){
+    .contact-fondo{
+        background-position: center;
+    }
+}
